@@ -28,6 +28,9 @@ import turfmngmnt from "./projects/turf-mngment.jpg";
 import tonmoy from "./about/tanmoy.jpg";
 import ecommerceui from "./projects/ecommerce-ui.png";
 import hotelui from "./projects/hotel-ui.png";
+import pacificCliff from "./projects/pacific-cliffs.png";
+import sokolseba from "./projects/sokol-sheba.png";
+import adminpanel from "./projects/adminpanel.png";
 
 const images = {
   logo,
@@ -60,6 +63,9 @@ const images = {
   tonmoy,
   ecommerceui,
   hotelui,
+  pacificCliff,
+  sokolseba,
+  adminpanel,
 };
 
 export default images;

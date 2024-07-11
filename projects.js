@@ -20,6 +20,24 @@ const projectList = [
     category: "web",
   },
   {
+    title: "Pacific Cliff",
+    des: "A delivery website frontend developed for an Australian client.",
+    image: images.pacificCliff,
+    category: "web",
+  },
+  {
+    title: "Sokol Sheba",
+    des: "Multiple Service selling website.",
+    image: images.sokolseba,
+    category: "web",
+  },
+  {
+    title: "Admin Panel",
+    des: "Custom admin panel designed and developed by us.",
+    image: images.adminpanel,
+    category: "web",
+  },
+  {
     title: "Retailer Info",
     des: "A retailer management android app for the dealer to manage his transaction.",
     image: images.retailerInfo,

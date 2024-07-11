@@ -46,12 +46,12 @@ export default function Home() {
               ideas into reality, making sure your digital presence is as unique
               as your vision.
             </p>
-            <Button title="Learn More" />
+            <Link href="/about">
+              <Button title="Learn More" />
+            </Link>
           </div>
           <div className="lg:w-1/2 z-10">
-            <Link href="about">
-              <Image className="w-full" src={images.heroImg} alt="Hero Image" />
-            </Link>
+            <Image className="w-full" src={images.heroImg} alt="Hero Image" />
           </div>
         </div>
       </div>

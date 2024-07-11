@@ -41,7 +41,7 @@ export default function Footer() {
               href="https://www.facebook.com/makeupcoder"
             >
               <Image
-                className="h-8 w-full"
+                className="h-8 w-8"
                 src={images.facebook}
                 alt="Facebook icon"
               />
@@ -51,7 +51,7 @@ export default function Footer() {
               href="https://www.instagram.com/makeupcoders/"
             >
               <Image
-                className="h-8 w-full"
+                className="h-8 w-8"
                 src={images.instagram}
                 alt="Instagram icon"
               />
@@ -61,7 +61,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/makeupcoder/"
             >
               <Image
-                className="h-8 w-full"
+                className="h-8 w-8"
                 src={images.linkedin}
                 alt="LinkedIn icon"
               />

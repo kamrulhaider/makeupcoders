@@ -29,7 +29,7 @@ export default function ServicePage() {
 
   return (
     <section className="global-container">
-      <div className="h-[600px] mt-16">
+      <div className="h-[600px]">
         <div className="grid lg:grid-rows-2 lg:grid-cols-2 h-full gap-5">
           {serviceLink.map((item, i) => (
             <ServiceLinkCard
