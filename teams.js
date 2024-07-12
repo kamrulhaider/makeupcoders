@@ -43,6 +43,19 @@ const teamList = [
     linkedin: "https://www.linkedin.com/in/prothom-acharjee/",
     github: "https://github.com/prothomacharjee",
   },
+  {
+    name: "Parvez Hosen",
+    position: "Wordpress Developer",
+    image: images.parvez,
+    linkedin: "https://www.linkedin.com/in/parvezhosen/",
+  },
+  {
+    name: "Tajkier haque Raiyan",
+    position: "Problem Solver & Innovative Tech Enthusiast",
+    image: images.raiyan,
+    linkedin: "https://www.linkedin.com/in/tajkier-haque/",
+    github: "https://github.com/coderboy-raiyan",
+  },
 ];
 
 export default teamList;

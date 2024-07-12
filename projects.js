@@ -61,6 +61,30 @@ const projectList = [
     image: images.hotelui,
     category: "uiux",
   },
+  {
+    title: "NFT Website",
+    des: "A eye-catching NFT website UI.",
+    image: images.nftui,
+    category: "uiux",
+  },
+  {
+    title: "GEN Z",
+    des: "A beautiful smart website by our UI/UX designer.",
+    image: images.genzui,
+    category: "uiux",
+  },
+  {
+    title: "Golio",
+    des: "A beautyful landing page UI.",
+    image: images.golioui,
+    category: "uiux",
+  },
+  {
+    title: "Watchshop",
+    des: "Mobile app UI for a single vendor e-commerce.",
+    image: images.watchshopui,
+    category: "uiux",
+  },
 ];
 
 export default projectList;

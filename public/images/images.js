@@ -26,11 +26,17 @@ import prothom from "./about/prothom.jpeg";
 import retailerInfo from "./projects/retailer-info.jpg";
 import turfmngmnt from "./projects/turf-mngment.jpg";
 import tonmoy from "./about/tanmoy.jpg";
-import ecommerceui from "./projects/ecommerce-ui.png";
+import ecommerceui from "./projects/ecommerce-ui.jpg";
 import hotelui from "./projects/hotel-ui.png";
 import pacificCliff from "./projects/pacific-cliffs.png";
 import sokolseba from "./projects/sokol-sheba.png";
 import adminpanel from "./projects/adminpanel.png";
+import raiyan from "./about/raiyan.jpeg";
+import nftui from "./projects/nft-ui.jpg";
+import genzui from "./projects/genz-ui.jpg";
+import golioui from "./projects/golio-landing-ui.jpg";
+import watchshopui from "./projects/watchshop-ui.jpg";
+import parvez from "./about/parvez.jpg";
 
 const images = {
   logo,
@@ -66,6 +72,12 @@ const images = {
   pacificCliff,
   sokolseba,
   adminpanel,
+  raiyan,
+  nftui,
+  genzui,
+  golioui,
+  watchshopui,
+  parvez,
 };
 
 export default images;
