@@ -15,7 +15,7 @@ export default function GetInTouch() {
           </p>
         </div>
         <div className="text-end lg:w-1/2">
-          <Link href={"https://wa.me/8801675654439"}>
+          <Link href={"/contact"}>
             <Button title={"Get in touch"} />
           </Link>
         </div>

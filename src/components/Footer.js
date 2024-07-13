@@ -20,6 +20,9 @@ export default function Footer() {
             <Link className="text-gray-300 hover:text-white" href="/services">
               SERVICES
             </Link>
+            <Link className="text-gray-300 hover:text-white" href="/contact">
+              CONTACT
+            </Link>
           </div>
         </div>
         <div className="py-5 flex lg:flex-row flex-col justify-between items-center lg:text-left text-center gap-5">
@@ -36,6 +39,13 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex gap-3">
+            <Link suppressHydrationWarning href="https://wa.me/8801675654439">
+              <Image
+                className="h-8 w-8"
+                src={images.whatsapp}
+                alt="Whatsapp icon"
+              />
+            </Link>
             <Link
               suppressHydrationWarning
               href="https://www.facebook.com/makeupcoder"

@@ -37,6 +37,7 @@ import genzui from "./projects/genz-ui.jpg";
 import golioui from "./projects/golio-landing-ui.jpg";
 import watchshopui from "./projects/watchshop-ui.jpg";
 import parvez from "./about/parvez.jpg";
+import whatsapp from "./social/whatsapp.png";
 
 const images = {
   logo,
@@ -78,6 +79,7 @@ const images = {
   golioui,
   watchshopui,
   parvez,
+  whatsapp,
 };
 
 export default images;
