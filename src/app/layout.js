@@ -2,6 +2,7 @@ import { Titillium_Web } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Toaster } from "react-hot-toast";
 
 const inter = Titillium_Web({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning lang="en">
       <body className={inter.className}>
+        <Toaster />
         <Header />
         {children}
         <Footer />
