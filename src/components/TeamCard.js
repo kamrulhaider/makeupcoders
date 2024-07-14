@@ -19,7 +19,7 @@ export default function TeamCard({
       <div className="flex gap-3 justify-center mt-5">
         <Link suppressHydrationWarning href={linkedin}>
           <Image
-            className="h-8 w-full"
+            className="h-8 w-8"
             src={images.linkedin}
             alt="LinkedIn icon"
           />
@@ -27,7 +27,7 @@ export default function TeamCard({
         {github && (
           <Link suppressHydrationWarning href={github}>
             <Image
-              className="h-8 w-full"
+              className="h-8 w-8"
               src={images.github}
               alt="LinkedIn icon"
             />
@@ -36,7 +36,7 @@ export default function TeamCard({
         {behance && (
           <Link suppressHydrationWarning href={behance}>
             <Image
-              className="h-8 w-full"
+              className="h-8 w-8"
               src={images.behance}
               alt="LinkedIn icon"
             />
