@@ -38,6 +38,7 @@ import golioui from "./projects/golio-landing-ui.jpg";
 import watchshopui from "./projects/watchshop-ui.jpg";
 import parvez from "./about/parvez.jpg";
 import whatsapp from "./social/whatsapp.png";
+import awal from "./about/awal.jpg";
 
 const images = {
   logo,
@@ -80,6 +81,7 @@ const images = {
   watchshopui,
   parvez,
   whatsapp,
+  awal,
 };
 
 export default images;

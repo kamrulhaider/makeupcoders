@@ -56,6 +56,13 @@ const teamList = [
     linkedin: "https://www.linkedin.com/in/tajkier-haque/",
     github: "https://github.com/coderboy-raiyan",
   },
+  {
+    name: "Awal Hossain",
+    position: "FullStack Developer",
+    image: images.awal,
+    linkedin: "https://www.linkedin.com/in/awal-hossain-0bb650108/",
+    github: "https://github.com/awalHossain",
+  },
 ];
 
 export default teamList;
