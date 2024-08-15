@@ -35,7 +35,7 @@ export default function Footer() {
             <div>
               <p>Contact US</p>
               <p>+880 1690-150490</p>
-              <p>makeupcoders@gmail.com</p>
+              <p>info@makeupcoders.com</p>
             </div>
           </div>
           <div className="flex gap-3">
