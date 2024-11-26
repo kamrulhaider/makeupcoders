@@ -8,6 +8,18 @@ const projectList = [
     category: "web",
   },
   {
+    title: "Foot Fitness",
+    des: "We are on a mission to redefine fashion by blending style, quality, and craftsmanship into every garment we offer. We believe what you wear is an expression of your unique personality, and it reflects your aspirations.",
+    image: images.footFitness,
+    category: "web",
+  },
+  {
+    title: "Tramedy",
+    des: "At TraMedi, you gain access to a full spectrum of medical services, ensuring that your entire journey is supported, comfortable, and stress-free at affordable prices",
+    image: images.tramedi,
+    category: "web",
+  },
+  {
     title: "Adsusu",
     des: "An micro investment website for the people who has lower saving.",
     image: images.adsusu,
