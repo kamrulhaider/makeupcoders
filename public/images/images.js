@@ -39,8 +39,14 @@ import watchshopui from "./projects/watchshop-ui.jpg";
 import parvez from "./about/parvez.jpg";
 import whatsapp from "./social/whatsapp.png";
 import awal from "./about/awal.jpg";
+import nahidullah from "./about/nahidullah.jpg";
+import kamrulhasan from "./about/kamrulhasan.jpg";
+import footFitness from "./projects/foot-fitness.png";
+import tramedi from "./projects/tramedi.png";
 
 const images = {
+  footFitness,
+  tramedi,
   logo,
   heroImg,
   worldMap,
@@ -82,6 +88,8 @@ const images = {
   parvez,
   whatsapp,
   awal,
+  nahidullah,
+  kamrulhasan,
 };
 
 export default images;
