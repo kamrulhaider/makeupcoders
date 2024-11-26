@@ -17,13 +17,15 @@ export default function TeamCard({
       <h4 className="text-2xl mt-5">{name}</h4>
       <p>{position}</p>
       <div className="flex gap-3 justify-center mt-5">
-        <Link suppressHydrationWarning href={linkedin}>
-          <Image
-            className="h-8 w-8"
-            src={images.linkedin}
-            alt="LinkedIn icon"
-          />
-        </Link>
+        {linkedin && (
+          <Link suppressHydrationWarning href={linkedin}>
+            <Image
+              className="h-8 w-8"
+              src={images.linkedin}
+              alt="LinkedIn icon"
+            />
+          </Link>
+        )}
         {github && (
           <Link suppressHydrationWarning href={github}>
             <Image
