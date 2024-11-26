@@ -3,7 +3,7 @@ const { default: images } = require("./public/images/images");
 const teamList = [
   {
     name: "Saran Barua",
-    position: "MERN Stack Developer",
+    position: "Cofounder & Chief Technical Officer",
     image: images.saran,
     linkedin: "https://www.linkedin.com/in/saran-barua/",
     github: "https://github.com/saranbarua",
@@ -24,7 +24,7 @@ const teamList = [
   },
   {
     name: "Kamrul Haider Chowdhury",
-    position: "Frontend Developer",
+    position: "Cofounder & Project Manager",
     image: images.kamrul,
     linkedin: "https://www.linkedin.com/in/kamrulhaider/",
     github: "https://github.com/kamrulhaider",
@@ -62,6 +62,18 @@ const teamList = [
     image: images.awal,
     linkedin: "https://www.linkedin.com/in/awal-hossain-0bb650108/",
     github: "https://github.com/awalHossain",
+  },
+  {
+    name: "Md. Nahid Ullah Joy",
+    position: "PHP, Laravel and YII Developer",
+    image: images.nahidullah,
+    github: "https://github.com/mdjoy555",
+  },
+  {
+    name: "Kamrul Hasan",
+    position: "Shopify Expert",
+    image: images.kamrulhasan,
+    linkedin: "https://www.linkedin.com/in/kamrul-hasan-05/",
   },
 ];
 
