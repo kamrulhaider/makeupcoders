@@ -43,6 +43,20 @@ import nahidullah from "./about/nahidullah.jpg";
 import kamrulhasan from "./about/kamrulhasan.jpg";
 import footFitness from "./projects/foot-fitness.png";
 import tramedi from "./projects/tramedi.png";
+import ClassMaster from "./projects/ClassMaster.jpeg";
+import Somiti from "./projects/somiti.jpg";
+import Tscore from "./projects/Tscore.png";
+import BookingApp from "./projects/Booking.jpeg";
+import MusicApp from "./projects/Music.jpeg";
+import DoctorUi from "./projects/Doctor-ui.jpeg";
+import SofSourceLogo from "./projects/SpftSpurce_ui.jpeg";
+import radhuni from "./projects/Eraduni_ui.jpeg";
+import MusicDesignUi from "./projects/musicDeisgn.jpeg";
+import MusicAppUi from "./projects/Music-app-ui.jpeg";
+import ClothWeb from "./projects/clothWebsite.jpeg";
+import SomitiWeb from "./projects/SomitiWeb.jpg";
+import CryptoWeb from "./projects/CryptoWeb.jpeg";
+import usAgenecy from "./projects/ux-Agency.jpeg";
 
 const images = {
   footFitness,
@@ -90,6 +104,20 @@ const images = {
   awal,
   nahidullah,
   kamrulhasan,
+  ClassMaster,
+  Somiti,
+  BookingApp,
+  Tscore,
+  MusicApp,
+  DoctorUi,
+  SofSourceLogo,
+  radhuni,
+  MusicAppUi,
+  MusicDesignUi,
+  ClothWeb,
+  SomitiWeb,
+  CryptoWeb,
+  usAgenecy,
 };
 
 export default images;

@@ -19,6 +19,25 @@ const projectList = [
     image: images.tramedi,
     category: "web",
   },
+
+  {
+    title: "Single Vendor Ecommerce",
+    des: "An online clothing store featuring premium cotton t-shirts and trendy apparel for men, women, and kids. With a modern design, easy navigation, and secure checkout, shopping fashion becomes simple and stylish.",
+    image: images.ClothWeb,
+    category: "web",
+  },
+  {
+    title: "CryptoPulse- a crypto exchange",
+    des: "CryptoPulse is a next-gen crypto exchange platform offering advanced analytics, real-time market data, and secure trading. Discover hidden gems in the crypto world with powerful tools designed for smart investors.",
+    image: images.CryptoWeb,
+    category: "web",
+  },
+  {
+    title: "Ux Agency Website ",
+    des: "A full-service web agency helping businesses scale with modern websites, digital consulting, analytics, and technical support. We build smart, user-friendly platforms that deliver results.",
+    image: images.usAgenecy,
+    category: "web",
+  },
   {
     title: "Adsusu",
     des: "An micro investment website for the people who has lower saving.",
@@ -50,15 +69,58 @@ const projectList = [
     category: "web",
   },
   {
+    title: "Chattogram Somiti Web",
+    des: "A Welfare Management Website building by React and Nodejs",
+    image: images.SomitiWeb,
+    category: "web",
+  },
+  {
+    title: "Somiti Management App",
+    des: "A community app built for Brihattar Chattagram Somiti, connecting members through messaging, profiles, and digital membership cards. It makes communication and management easier, smarter, and more organized",
+    image: images.Somiti,
+    category: "app",
+  },
+  {
+    title: "Booking App",
+    des: "A smart booking app that lets users reserve flights, hotels, events, or services anytime, anywhere. With real-time availability and instant confirmation, managing reservations becomes seamless and hassle-free.",
+    image: images.BookingApp,
+    category: "app",
+  },
+
+  {
+    title: "Turf Management",
+    des: "Football & Cricket Turf management app for managing their slots.",
+    image: images.turfmngmnt,
+    category: "app",
+  },
+  {
+    title: "Audio App",
+    des: "A sleek music app that lets you explore albums, discover bands, and enjoy your favorite tracks in one place. With a modern glass-style interface, your music journey feels fresh, immersive, and intuitive.",
+    image: images.MusicApp,
+    category: "app",
+  },
+  {
     title: "Retailer Info",
     des: "A retailer management android app for the dealer to manage his transaction.",
     image: images.retailerInfo,
     category: "app",
   },
   {
-    title: "Turf Management",
-    des: "Football & Cricket Turf management app for managing their slots.",
-    image: images.turfmngmnt,
+    title: "T-score",
+    des: "Cricket & Football Live-Scores App.",
+    image: images.Tscore,
+    category: "app",
+  },
+  {
+    title: "Coaching Management",
+    des: "A smart coaching management app that tracks student enrollment, daily attendance, and fees in one place. With real-time updates on earnings and unpaid dues, it makes running your coaching center simple and organized..",
+    image: images.ClassMaster,
+    category: "app",
+  },
+  {
+    title: "Telemedicine App",
+    des: "A modern healthcare app that helps you find top doctors and hospitals, book appointments, and access telemedicine services instantly. From online consultations to hospital visits, manage your healthcare needs all in one place.",
+    image: images.DoctorUi,
     category: "app",
   },
   {
@@ -95,6 +157,48 @@ const projectList = [
     title: "Watchshop",
     des: "Mobile app UI for a single vendor e-commerce.",
     image: images.watchshopui,
+    category: "uiux",
+  },
+  {
+    title: "Software Company Logo",
+    des: "Mobile app UI for a single vendor e-commerce.",
+    image: images.SofSourceLogo,
+    category: "uiux",
+  },
+  {
+    title: "Doctor App Panel",
+    des: "Mobile app UI for a telemedicine App.",
+    image: images.DoctorUi,
+    category: "uiux",
+  },
+  {
+    title: "Logo Branding of Cooking",
+    des: "E-Radhuni is a modern cooking and recipe-sharing platform where you can cook, learn, love, and share your culinary journey. With a bold red-and-black identity, it brings together food lovers in a vibrant digital community",
+    image: images.radhuni,
+    category: "uiux",
+  },
+  {
+    title: "Streaming App Design",
+    des: "Mobile app UI for a Video Streaming App.",
+    image: images.MusicAppUi,
+    category: "uiux",
+  },
+  {
+    title: "Ux Agency UI ",
+    des: "A creative UX/UI design agency that transforms ideas into stunning digital experiences. From wireframes to polished interfaces.",
+    image: images.usAgenecy,
+    category: "uiux",
+  },
+  {
+    title: "Ecommerce Design",
+    des: "Ecomere Design app UI for a Single Vendor.",
+    image: images.ClothWeb,
+    category: "uiux",
+  },
+  {
+    title: "Music App Design",
+    des: "Mobile app UI for a Music App.",
+    image: images.MusicDesignUi,
     category: "uiux",
   },
 ];
