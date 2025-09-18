@@ -38,9 +38,8 @@ import golioui from "./projects/golio-landing-ui.jpg";
 import watchshopui from "./projects/watchshop-ui.jpg";
 import parvez from "./about/parvez.jpg";
 import whatsapp from "./social/whatsapp.png";
-import awal from "./about/awal.jpg";
-import nahidullah from "./about/nahidullah.jpg";
 import kamrulhasan from "./about/kamrulhasan.jpg";
+import PriyamBiswas from "./about/FB_IMG_1758141291099.jpg";
 import footFitness from "./projects/foot-fitness.png";
 import tramedi from "./projects/tramedi.png";
 import ClassMaster from "./projects/ClassMaster.jpeg";
@@ -57,6 +56,7 @@ import ClothWeb from "./projects/clothWebsite.jpeg";
 import SomitiWeb from "./projects/SomitiWeb.jpg";
 import CryptoWeb from "./projects/CryptoWeb.jpeg";
 import usAgenecy from "./projects/ux-Agency.jpeg";
+import NAfis from "./about/nafis.png";
 
 const images = {
   footFitness,
@@ -101,8 +101,6 @@ const images = {
   watchshopui,
   parvez,
   whatsapp,
-  awal,
-  nahidullah,
   kamrulhasan,
   ClassMaster,
   Somiti,
@@ -118,6 +116,8 @@ const images = {
   SomitiWeb,
   CryptoWeb,
   usAgenecy,
+  PriyamBiswas,
+  NAfis,
 };
 
 export default images;

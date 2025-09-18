@@ -2,8 +2,31 @@
 import Image from "next/image";
 import Link from "next/link";
 import images from "../../public/images/images";
+import { useState } from "react";
 
 export default function Footer() {
+  const addresses = {
+    chattogram: {
+      title: "Chattogram Office",
+      lines: ["MB Complex, 4th Floor", "Wasa Circle, Chattogram", "Bangladesh"],
+      mobile: "+880 1690-150490",
+    },
+    malaysia: {
+      title: "Malaysia Office",
+      lines: [
+        `MH Platinum 2 Residences (Residensi MH Platinum 2),
+Block B,Floor-29-03
+Lot 21770 Setapak Jaya, 53200 Kuala Lumpur, Federal Territory of Kuala Lumpur`,
+      ],
+      mobile: "+60 11-1406 7182",
+    },
+    rajshahi: {
+      title: "Rajshahi Office",
+      lines: ["Beldarpara, Boalia, Rajshahi 6000, Rajshahi, Bangladesh, "],
+      mobile: "+880 1690-150490",
+    },
+  };
+  const [activeOffice, setActiveOffice] = useState("chattogram");
   return (
     <footer className="bg-gray-800 pt-28">
       <section className="global-container">
@@ -27,14 +50,50 @@ export default function Footer() {
         </div>
         <div className="py-5 flex lg:flex-row flex-col justify-between items-center lg:text-left text-center gap-5">
           <div className="flex gap-5 lg:flex-row flex-col">
-            <div>
-              <p>MB Complex, 4th Floor</p>
-              <p>Wasa Circle, Chattogram</p>
-              <p>Bangladesh</p>
+            <div className="flex gap-3 justify-center lg:justify-start">
+              <button
+                onClick={() => setActiveOffice("chattogram")}
+                className={`px-4 py-2 rounded ${
+                  activeOffice === "chattogram"
+                    ? "bg-green-600 text-white"
+                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                }`}
+              >
+                Chattogram
+              </button>
+              <button
+                onClick={() => setActiveOffice("malaysia")}
+                className={`px-4 py-2 rounded ${
+                  activeOffice === "malaysia"
+                    ? "bg-green-600 text-white"
+                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                }`}
+              >
+                Malaysia
+              </button>
+              <button
+                onClick={() => setActiveOffice("rajshahi")}
+                className={`px-4 py-2 rounded ${
+                  activeOffice === "rajshahi"
+                    ? "bg-green-600 text-white"
+                    : "bg-gray-700 text-gray-300 hover:bg-gray-600"
+                }`}
+              >
+                Rajshahi
+              </button>
             </div>
+
+            {/* Step 4: Display active office */}
+            <div className="text-gray-300">
+              <p className="font-semibold">{addresses[activeOffice].title}</p>
+              {addresses[activeOffice].lines.map((line, idx) => (
+                <p key={idx}>{line}</p>
+              ))}
+            </div>
+
             <div>
-              <p>Contact US</p>
-              <p>+880 1690-150490</p>
+              <p className="font-bold">Contact US</p>
+              <p c>{addresses[activeOffice].mobile}</p>
               <p>info@makeupcoders.com</p>
             </div>
           </div>

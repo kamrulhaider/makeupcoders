@@ -3,7 +3,7 @@ const { default: images } = require("./public/images/images");
 const teamList = [
   {
     name: "Saran Barua",
-    position: "Cofounder & Chief Technical Officer",
+    position: "Co-Founder & Chief Technical Officer",
     image: images.saran,
     linkedin: "https://www.linkedin.com/in/saran-barua/",
     github: "https://github.com/saranbarua",
@@ -56,24 +56,24 @@ const teamList = [
     linkedin: "https://www.linkedin.com/in/tajkier-haque/",
     github: "https://github.com/coderboy-raiyan",
   },
-  {
-    name: "Awal Hossain",
-    position: "FullStack Developer",
-    image: images.awal,
-    linkedin: "https://www.linkedin.com/in/awal-hossain-0bb650108/",
-    github: "https://github.com/awalHossain",
-  },
-  {
-    name: "Md. Nahid Ullah Joy",
-    position: "PHP, Laravel and YII Developer",
-    image: images.nahidullah,
-    github: "https://github.com/mdjoy555",
-  },
+
   {
     name: "Kamrul Hasan",
     position: "Shopify Expert",
     image: images.kamrulhasan,
     linkedin: "https://www.linkedin.com/in/kamrul-hasan-05/",
+  },
+  {
+    name: "Nafis Hasan",
+    position: "Social Media & Community Manager",
+    image: images.NAfis,
+    linkedin: "https://www.linkedin.com/in/nafishsn/",
+  },
+  {
+    name: "Priyam Biswas",
+    position: "Sales & Marketing Executive",
+    image: images.PriyamBiswas,
+    linkedin: "https://www.linkedin.com/in/priyam-biswas-627511385/",
   },
 ];
 
