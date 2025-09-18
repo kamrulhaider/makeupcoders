@@ -38,7 +38,7 @@ const teamList = [
   },
   {
     name: "Prothom Acharjee",
-    position: "PHP & Laravel Developer",
+    position: "PHP, CodeIgniter, DotNet & Laravel Developer",
     image: images.prothom,
     linkedin: "https://www.linkedin.com/in/prothom-acharjee/",
     github: "https://github.com/prothomacharjee",
@@ -51,7 +51,7 @@ const teamList = [
   },
   {
     name: "Tajkier haque Raiyan",
-    position: "Problem Solver & Innovative Tech Enthusiast",
+    position: "Problem Solver &  Tech Enthusiast",
     image: images.raiyan,
     linkedin: "https://www.linkedin.com/in/tajkier-haque/",
     github: "https://github.com/coderboy-raiyan",
