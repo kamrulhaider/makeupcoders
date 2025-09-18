@@ -110,11 +110,10 @@ export default function AboutPage() {
       </motion.div>
 
       {/* team members */}
-      <div className="mt-16">
+      <div className="mt-16 ">
         <motion.div
           className="grid lg:grid-cols-3 grid-cols-1 gap-5 items-center"
           variants={containerStagger}
-          initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
         >
