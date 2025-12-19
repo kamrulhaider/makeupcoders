@@ -57,9 +57,18 @@ import SomitiWeb from "./projects/SomitiWeb.jpg";
 import CryptoWeb from "./projects/CryptoWeb.jpeg";
 import usAgenecy from "./projects/ux-Agency.jpeg";
 import NAfis from "./about/nafis.png";
+import genAi from "./projects/genAI.jpeg";
+import mytrams from "./projects/Mytrams.jpg";
+import nested from "./projects/Nested-Matrix.jpg";
+import haqueAndSons from "./projects/hoque.png";
+import commonAdmin from "./projects/Common-Admin.PNG";
 
 const images = {
+  mytrams,
+  nested,
   footFitness,
+  haqueAndSons,
+  genAi,
   tramedi,
   logo,
   heroImg,
@@ -69,6 +78,7 @@ const images = {
   grapicdesign,
   friendly,
   passionate,
+  commonAdmin,
   resourceful,
   facebook,
   instagram,

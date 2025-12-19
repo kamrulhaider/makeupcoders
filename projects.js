@@ -2,6 +2,19 @@ import images from "./public/images/images";
 
 const projectList = [
   {
+    title: "Mytrams",
+    des: "MyTRAMS is a complete travel agency management system built to automate and centralize daily operations for travel businesses. It handles air ticketing, visa processing, hotel and holiday bookings, finance, refunds, reporting, and role-based access—helping agencies operate faster, smarter, and at scale.",
+    image: images.mytrams,
+    category: "web",
+  },
+  {
+    title: "Nested Matrix",
+    des: "Nested Matrix is a modern restaurant automation system designed to streamline daily operations and improve efficiency. It manages orders, billing, inventory, staff workflows, and sales reporting in one centralized platform—helping restaurants operate faster, reduce errors, and make data-driven decisions.",
+    image: images.nested,
+    category: "web",
+  },
+
+  {
     title: "Visamind",
     des: "A visa info and visa application website.",
     image: images.visamind,
@@ -62,16 +75,36 @@ const projectList = [
     image: images.sokolseba,
     category: "web",
   },
+
   {
-    title: "Admin Panel",
-    des: "Custom admin panel designed and developed by us.",
-    image: images.adminpanel,
+    title: "Invoice Generator",
+    des: "Invoice Generator is a lightweight and efficient web application that allows businesses to create, customize, and download professional invoices in seconds. It supports itemized billing, automatic calculations, tax handling, and PDF export—making invoicing fast, accurate, and hassle-free.",
+    image: images.genAi,
     category: "web",
   },
+  {
+    title: "Haque & Sons Engineering Technology",
+    des: "A corporate website developed for Haque & Sons Engineering Technology, a Bangladesh-based elevator and escalator solutions company. The platform showcases their services including installation, modernization, maintenance, and repair, with a strong focus on safety, reliability, and engineering expertise.",
+    image: images.haqueAndSons,
+    category: "web",
+  },
+
   {
     title: "Chattogram Somiti Web",
     des: "A Welfare Management Website building by React and Nodejs",
     image: images.SomitiWeb,
+    category: "web",
+  },
+  {
+    title: "Super Admin Panel",
+    des: "Custom Super admin panel designed and developed by us.",
+    image: images.commonAdmin,
+    category: "web",
+  },
+  {
+    title: "Admin Panel",
+    des: "Custom admin panel designed and developed by us.",
+    image: images.adminpanel,
     category: "web",
   },
   {

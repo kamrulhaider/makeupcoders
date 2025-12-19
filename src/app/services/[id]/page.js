@@ -1,5 +1,3 @@
-import Image from "next/image";
-import images from "../../../../public/images/images";
 import projectList from "../../../../projects";
 import ProjectCard from "@/components/ProjectCard";
 import ServiceLinkCard from "@/components/ServiceLinkCard";
