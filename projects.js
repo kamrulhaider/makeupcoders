@@ -96,6 +96,12 @@ const projectList = [
     category: "web",
   },
   {
+    title: "Easy Accounting",
+    des: "Easy Accounting is a modern accounting platform built to simplify financial management for growing businesses. From single journal entries to automated ledgers, balance sheets, and real-time dashboards — it delivers clarity, speed, and control without the ERP complexity.",
+    image: images.EasyAccounting,
+    category: "web",
+  },
+  {
     title: "Super Admin Panel",
     des: "Custom Super admin panel designed and developed by us.",
     image: images.commonAdmin,

@@ -30,6 +30,7 @@ import ecommerceui from "./projects/ecommerce-ui.jpg";
 import hotelui from "./projects/hotel-ui.png";
 import pacificCliff from "./projects/pacific-cliffs.png";
 import sokolseba from "./projects/sokol-sheba.png";
+import EasyAccounting from "./projects/easy_accounting_1917x911.jpg";
 import adminpanel from "./projects/adminpanel.png";
 import raiyan from "./about/raiyan.jpeg";
 import nftui from "./projects/nft-ui.jpg";
@@ -105,6 +106,7 @@ const images = {
   pacificCliff,
   sokolseba,
   adminpanel,
+  EasyAccounting,
   raiyan,
   nftui,
   genzui,
