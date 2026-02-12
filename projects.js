@@ -157,6 +157,12 @@ const projectList = [
     category: "app",
   },
   {
+    title: "Nijer Hisab",
+    des: "A modern accounting app that helps you track expenses, manage income, and generate reports with ease.",
+    image: images.nijerHisab,
+    category: "app",
+  },
+  {
     title: "E-Commerce",
     des: "A single vendor e-commerce website UI.",
     image: images.ecommerceui,

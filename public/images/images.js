@@ -62,6 +62,7 @@ import mytrams from "./projects/Mytrams.jpg";
 import nested from "./projects/Nested-Matrix.jpg";
 import haqueAndSons from "./projects/hoque.png";
 import commonAdmin from "./projects/Common-Admin.PNG";
+import nijerHisab from "./projects/NijerHisab.png";
 
 const images = {
   mytrams,
@@ -128,6 +129,7 @@ const images = {
   usAgenecy,
   PriyamBiswas,
   NAfis,
+  nijerHisab,
 };
 
 export default images;
