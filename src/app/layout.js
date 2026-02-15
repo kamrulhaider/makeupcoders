@@ -24,11 +24,17 @@ export const metadata = {
     siteName: "Makeup Coders",
     images: [
       {
-        url: "https://makeupcoders.com/images/logo/logo.png",
-        alt: "Makeup Coders logo",
+        url: "https://makeupcoders.com/og/poster.png",
+        alt: "Makeup Coders — Featured",
+        width: 1200,
+        height: 630,
       },
     ],
     type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
@@ -44,7 +50,13 @@ export default function RootLayout({ children }) {
           name="description"
           content="Makeup Coders crafts beautiful, high-performing websites and apps tailored to your brand."
         />
-        <link rel="icon" href="/images/logo/logo.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://makeupcoders.com/" />
         {/* Open Graph */}
