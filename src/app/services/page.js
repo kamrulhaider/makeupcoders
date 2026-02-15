@@ -47,3 +47,9 @@ export default function ServicePage() {
     </section>
   );
 }
+
+export const metadata = {
+  title: "Services — Makeup Coders",
+  description:
+    "Our services: Web Development, App Development, and UI/UX Design.",
+};

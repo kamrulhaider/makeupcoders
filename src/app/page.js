@@ -5,6 +5,12 @@ import GetInTouch from "@/components/GetInTouch";
 import ServiceLinkCard from "@/components/ServiceLinkCard";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Makeup Coders — Home",
+  description:
+    "Makeup Coders builds beautiful, high-performing websites, apps, and designs tailored to your brand.",
+};
+
 export default function Home() {
   const serviceLink = [
     {
