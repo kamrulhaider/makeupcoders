@@ -33,25 +33,58 @@ export default function Home() {
   return (
     <section className="global-container">
       {/* hero section */}
+
       <div className="hero-section lg:h-[600px] rounded-2xl lg:px-20 px-3 py-10">
         <div className="flex lg:flex-row flex-col items-center h-full relative lg:text-left text-center gap-4">
           <div className="lg:w-1/2 z-10">
-            <h1 className="lg:text-6xl text-4xl font-bold mb-5">
-              Bringing Your Digital Dreams to Life
+            <div className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-medium text-slate-600 shadow-sm">
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+              Premium web, app & UI/UX studio
+            </div>
+
+            <h1 className="mt-6 lg:text-6xl text-4xl font-semibold leading-[1.05] tracking-tight">
+              Bringing Your{" "}
+              <span className="bg-gradient-to-r from-slate-900 via-indigo-700 to-fuchsia-700 bg-clip-text text-transparent">
+                Digital Dreams
+              </span>{" "}
+              to Life
             </h1>
-            <p className="mb-5">
-              Welcome to Makeup Coders! We&apos;re passionate about creating
-              websites, apps, and stunning designs that not only look amazing
-              but also work seamlessly. Our friendly team is here to turn your
-              ideas into reality, making sure your digital presence is as unique
-              as your vision.
+
+            <p className="mt-5 text-base leading-7 text-slate-600 max-w-xl lg:mx-0 mx-auto">
+              We design and build fast, modern websites and apps that feel
+              premium, convert better, and scale with your business—without the
+              usual headache.
             </p>
-            <Link href="/about">
-              <Button title="Learn More" />
-            </Link>
+
+            <div className="mt-8 flex lg:justify-start justify-center gap-3">
+              <Link href="/about">
+                <Button title="Learn More" />
+              </Link>
+
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50 transition"
+              >
+                Get a Quote
+              </Link>
+            </div>
+
+            <div className="mt-8 flex lg:justify-start justify-center gap-6 text-xs text-slate-500">
+              <span>Fast delivery</span>
+              <span>Clean UI</span>
+              <span>Scalable code</span>
+            </div>
           </div>
+
           <div className="lg:w-1/2 z-10">
-            <Image className="w-full" src={images.heroImg} alt="Hero Image" />
+            <div className="relative">
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-indigo-500/10 via-transparent to-fuchsia-500/10 blur-2xl" />
+              <Image
+                className="relative w-full rounded-3xl border border-slate-200/60 shadow-lg"
+                src={images.heroImg}
+                alt="Hero Image"
+              />
+            </div>
           </div>
         </div>
       </div>
