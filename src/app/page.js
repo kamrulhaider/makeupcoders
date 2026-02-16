@@ -242,6 +242,154 @@ export default function Home() {
       {/* How We Work / Process Section (Premium Timeline + Icons + Motion) */}
       <HowWeWork />
 
+      {/* Tech Stack Section */}
+      <div className="mt-20">
+        <div className="rounded-3xl border border-white/10 bg-white/5 p-6 lg:p-10 backdrop-blur">
+          {/* Header */}
+          <div className="text-center mb-10">
+            <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs font-semibold text-white/80 shadow-sm">
+              <span className="h-2 w-2 rounded-full bg-sky-400" />
+              Tech stack
+            </p>
+
+            <h2 className="mt-5 text-3xl lg:text-4xl font-semibold tracking-tight text-white">
+              The tools we build with.
+            </h2>
+
+            <p className="mt-3 text-white/70 max-w-2xl mx-auto leading-7">
+              From high-converting funnels to scalable web apps—we use proven
+              technologies that deliver results.
+            </p>
+          </div>
+
+          {/* Grid */}
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Backend & CMS */}
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-7 hover:bg-white/10 transition">
+              <h3 className="text-lg font-semibold text-white">
+                Backend & CMS
+              </h3>
+              <p className="mt-2 text-sm text-white/70 leading-6">
+                Secure, scalable backend systems and content-driven platforms.
+              </p>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                {[
+                  "Laravel",
+                  "PHP",
+                  "WordPress",
+                  "Custom Admin Panel",
+                  "REST API",
+                  "Role-based Auth",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-medium text-white/80"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* E-commerce & Funnels */}
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-7 hover:bg-white/10 transition">
+              <h3 className="text-lg font-semibold text-white">
+                E-commerce & Funnels
+              </h3>
+              <p className="mt-2 text-sm text-white/70 leading-6">
+                High-converting sales funnels and online store systems.
+              </p>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                {[
+                  "Shopify",
+                  "Funnelish",
+                  "WooCommerce",
+                  "Payment Gateway Integration",
+                  "Conversion Optimization",
+                  "Landing Pages",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-medium text-white/80"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Frontend & Mobile */}
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-7 hover:bg-white/10 transition">
+              <h3 className="text-lg font-semibold text-white">
+                Frontend & Mobile
+              </h3>
+              <p className="mt-2 text-sm text-white/70 leading-6">
+                Modern UI, smooth animations, and mobile-ready applications.
+              </p>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                {[
+                  "React",
+                  "Next.js",
+                  "React Native",
+                  "Tailwind CSS",
+                  "TypeScript",
+                  "Responsive Design",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-medium text-white/80"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Database & Deployment */}
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-7 hover:bg-white/10 transition">
+              <h3 className="text-lg font-semibold text-white">
+                Database & Deployment
+              </h3>
+              <p className="mt-2 text-sm text-white/70 leading-6">
+                Reliable infrastructure and optimized performance.
+              </p>
+
+              <div className="mt-5 flex flex-wrap gap-2">
+                {[
+                  "MySQL",
+                  "PostgreSQL",
+                  "MongoDB",
+                  "Server Deployment",
+                  "Cloud Hosting",
+                  "Domain & SSL Setup",
+                ].map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-medium text-white/80"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="mt-10 rounded-3xl border border-white/10 bg-white/5 p-6 text-center">
+            <h4 className="text-lg font-semibold text-white">
+              Not sure which stack fits your project?
+            </h4>
+            <p className="mt-2 text-sm text-white/70">
+              Tell us your idea—we’ll recommend the best solution for
+              performance, scalability, and budget.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* get in touch section */}
       <GetInTouch />
     </section>
