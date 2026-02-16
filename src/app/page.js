@@ -108,6 +108,126 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <div className="mt-20">
+        {/* Section header */}
+        <div className="text-center mb-10">
+          <p className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-xs font-semibold text-slate-600 shadow-sm">
+            <span className="h-2 w-2 rounded-full bg-emerald-500" />
+            How we deliver value
+          </p>
+
+          <h2 className="mt-5 text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900">
+            Premium work. Clear process. Real outcomes.
+          </h2>
+          <p className="mt-3 text-slate-600 max-w-2xl mx-auto leading-7">
+            We combine strategy, design, and engineering to build products that
+            feel premium and perform even better.
+          </p>
+        </div>
+
+        {/* Cards */}
+        <div className="grid lg:grid-cols-3 gap-5">
+          {/* Card 1 */}
+          <div className="group relative overflow-hidden rounded-3xl border border-slate-200/70 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div className="pointer-events-none absolute -top-20 -right-20 h-48 w-48 rounded-full bg-indigo-500/10 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-200 bg-slate-50">
+              <Image
+                src={images.friendly}
+                className="h-8 w-8"
+                alt="Driven by Innovation"
+              />
+            </div>
+
+            <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+              Driven by Innovation
+            </h3>
+            <p className="mt-2 text-sm leading-6 text-slate-600">
+              We start with brand research and product clarity—then craft web,
+              app, and UI/UX solutions that stand out and scale smoothly.
+            </p>
+
+            <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Research-first
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Modern UI
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Performance
+              </span>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="group relative overflow-hidden rounded-3xl border border-slate-200/70 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div className="pointer-events-none absolute -top-20 -left-20 h-48 w-48 rounded-full bg-fuchsia-500/10 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-200 bg-slate-50">
+              <Image
+                src={images.passionate}
+                className="h-8 w-8"
+                alt="Crafting Digital Masterpieces"
+              />
+            </div>
+
+            <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+              Crafting Digital Masterpieces
+            </h3>
+            <p className="mt-2 text-sm leading-6 text-slate-600">
+              We blend design craft with strong engineering—so your product
+              feels premium, loads fast, and converts better.
+            </p>
+
+            <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Clean design
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Scalable code
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Fast delivery
+              </span>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="group relative overflow-hidden rounded-3xl border border-slate-200/70 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <div className="pointer-events-none absolute -bottom-24 -right-24 h-56 w-56 rounded-full bg-emerald-500/10 blur-3xl opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+
+            <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-200 bg-slate-50">
+              <Image
+                src={images.resourceful}
+                className="h-8 w-8"
+                alt="Innovating with Purpose"
+              />
+            </div>
+
+            <h3 className="text-lg font-semibold tracking-tight text-slate-900">
+              Innovating with Purpose
+            </h3>
+            <p className="mt-2 text-sm leading-6 text-slate-600">
+              We build with intention—strong UX, reliable architecture, and a
+              clear roadmap so your product grows without redesigning everything
+              later.
+            </p>
+
+            <div className="mt-5 flex flex-wrap items-center justify-center gap-2">
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                UX clarity
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Reliability
+              </span>
+              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600">
+                Growth-ready
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* How we provide section */}
       <div>
