@@ -63,15 +63,15 @@ export default function Page({ params }) {
             {id === "web-development"
               ? "Web Development"
               : id === "app-development"
-              ? "App Development"
-              : "UI/UX Design"}
+                ? "App Development"
+                : "UI/UX Design"}
           </h2>
           <p className="text-sm">
             {id === "web-development"
               ? "We create websites that function as impactful marketing tools and deliver unforgettable brand experiences."
               : id === "app-development"
-              ? "Our mobile designs provide your customers with intuitive digital solutions at their fingertips."
-              : "Our UI/UX designs offer seamless and engaging digital experiences, ensuring your customers interact effortlessly with your brand."}
+                ? "Our mobile designs provide your customers with intuitive digital solutions at their fingertips."
+                : "Our UI/UX designs offer seamless and engaging digital experiences, ensuring your customers interact effortlessly with your brand."}
           </p>
         </div>
       </div>
@@ -108,4 +108,34 @@ export default function Page({ params }) {
       <GetInTouch />
     </section>
   );
+}
+
+export async function generateMetadata({ params }) {
+  const id = params.id;
+  let title = "Service — Makeup Coders";
+  let description =
+    "Learn about our services and how we can help build your product.";
+
+  if (id === "web-development") {
+    title = "Web Development — Makeup Coders";
+    description =
+      "We build responsive, high-performance websites that drive results and brand growth.";
+  } else if (id === "app-development") {
+    title = "App Development — Makeup Coders";
+    description =
+      "Custom mobile apps designed for performance, usability, and growth.";
+  } else if (id === "ui-ux-design") {
+    title = "UI/UX Design — Makeup Coders";
+    description =
+      "User-centered UI/UX design to create delightful and effective experiences.";
+  }
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+    },
+  };
 }

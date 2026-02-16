@@ -48,12 +48,12 @@ Lot 21770 Setapak Jaya, 53200 Kuala Lumpur, Federal Territory of Kuala Lumpur`,
             </Link>
           </div>
         </div>
-        <div className="py-5 flex lg:flex-row flex-col justify-between items-center lg:text-left text-center gap-5">
+        <div className="py-5 flex lg:flex-row flex-col justify-between items-start lg:text-left text-center gap-5">
           <div className="flex gap-5 lg:flex-row flex-col">
-            <div className="flex gap-3 justify-center lg:justify-start">
+            <div className="flex gap-3 justify-center lg:justify-start items-start">
               <button
                 onClick={() => setActiveOffice("chattogram")}
-                className={`px-4 py-2 rounded ${
+                className={`px-4 py-1 text-sm rounded self-start leading-none ${
                   activeOffice === "chattogram"
                     ? "bg-green-600 text-white"
                     : "bg-gray-700 text-gray-300 hover:bg-gray-600"
@@ -63,7 +63,7 @@ Lot 21770 Setapak Jaya, 53200 Kuala Lumpur, Federal Territory of Kuala Lumpur`,
               </button>
               <button
                 onClick={() => setActiveOffice("malaysia")}
-                className={`px-4 py-2 rounded ${
+                className={`px-4 py-1 text-sm rounded self-start leading-none ${
                   activeOffice === "malaysia"
                     ? "bg-green-600 text-white"
                     : "bg-gray-700 text-gray-300 hover:bg-gray-600"
@@ -73,7 +73,7 @@ Lot 21770 Setapak Jaya, 53200 Kuala Lumpur, Federal Territory of Kuala Lumpur`,
               </button>
               <button
                 onClick={() => setActiveOffice("rajshahi")}
-                className={`px-4 py-2 rounded ${
+                className={`px-4 py-1 text-sm rounded self-start leading-none ${
                   activeOffice === "rajshahi"
                     ? "bg-green-600 text-white"
                     : "bg-gray-700 text-gray-300 hover:bg-gray-600"
@@ -84,17 +84,24 @@ Lot 21770 Setapak Jaya, 53200 Kuala Lumpur, Federal Territory of Kuala Lumpur`,
             </div>
 
             {/* Step 4: Display active office */}
-            <div className="text-gray-300">
+            <div className="text-gray-300 max-w-md min-h-32 md:min-h-40 transition-all duration-300">
               <p className="font-semibold">{addresses[activeOffice].title}</p>
               {addresses[activeOffice].lines.map((line, idx) => (
-                <p key={idx}>{line}</p>
+                <p
+                  key={idx}
+                  className="text-sm text-gray-300 whitespace-pre-line break-words"
+                >
+                  {line}
+                </p>
               ))}
             </div>
 
             <div>
               <p className="font-bold">Contact US</p>
-              <p c>{addresses[activeOffice].mobile}</p>
-              <p>info@makeupcoders.com</p>
+              <p className="mt-2 text-sm text-gray-300">
+                {addresses[activeOffice].mobile}
+              </p>
+              <p className="text-sm text-gray-300">info@makeupcoders.com</p>
             </div>
           </div>
           <div className="flex gap-3">

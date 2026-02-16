@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://makeupcoders.com/sitemap.xml
+Host: https://makeupcoders.com

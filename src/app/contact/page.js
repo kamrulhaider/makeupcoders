@@ -22,3 +22,9 @@ export default function ContactPage() {
     </section>
   );
 }
+
+export const metadata = {
+  title: "Contact — Makeup Coders",
+  description:
+    "Get in touch with Makeup Coders to start your next digital project.",
+};
