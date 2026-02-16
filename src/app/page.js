@@ -4,6 +4,7 @@ import images from "../../public/images/images";
 import GetInTouch from "@/components/GetInTouch";
 import ServiceLinkCard from "@/components/ServiceLinkCard";
 import Link from "next/link";
+import HowWeWork from "./HowWeWork";
 
 export const metadata = {
   title: "Makeup Coders — Home",
@@ -237,6 +238,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* How We Work / Process Section (Premium Timeline + Icons + Motion) */}
+      <HowWeWork />
 
       {/* get in touch section */}
       <GetInTouch />
