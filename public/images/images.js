@@ -61,8 +61,12 @@ import genAi from "./projects/genAI.jpeg";
 import mytrams from "./projects/Mytrams.jpg";
 import nested from "./projects/Nested-Matrix.jpg";
 import haqueAndSons from "./projects/hoque.png";
-import commonAdmin from "./projects/Common-Admin.PNG";
+import commonAdmin from "./projects/Common-Admin.webp";
 import nijerHisab from "./projects/NijerHisab.png";
+//Testonomial images
+import Mohib from "./hero/mohib.webp";
+import Shaikat from "./hero/Shaikat.webp";
+import Shibly from "./hero/shibly.webp";
 
 const images = {
   mytrams,
@@ -130,6 +134,9 @@ const images = {
   PriyamBiswas,
   NAfis,
   nijerHisab,
+  Mohib,
+  Shaikat,
+  Shibly,
 };
 
 export default images;

@@ -4,7 +4,8 @@ import images from "../../public/images/images";
 import GetInTouch from "@/components/GetInTouch";
 import ServiceLinkCard from "@/components/ServiceLinkCard";
 import Link from "next/link";
-import HowWeWork from "./HowWeWork";
+import HowWeWork from "./Home/HowWeWork";
+import Testomonial from "./Home/Testomonial";
 
 export const metadata = {
   title: "Makeup Coders — Home",
@@ -389,7 +390,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <Testomonial />
       {/* get in touch section */}
       <GetInTouch />
     </section>
