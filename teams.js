@@ -75,6 +75,12 @@ const teamList = [
     image: images.PriyamBiswas,
     linkedin: "https://www.linkedin.com/in/priyam-biswas-627511385/",
   },
+  {
+    name: "Arup Sharma",
+    position: "IT & Management Executive",
+    image: images.Arup,
+    linkedin: "https://www.linkedin.com/in/arup-sharma-625b14280",
+  },
 ];
 
 export default teamList;

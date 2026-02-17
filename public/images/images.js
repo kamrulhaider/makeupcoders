@@ -40,6 +40,7 @@ import parvez from "./about/parvez.webp";
 import whatsapp from "./social/whatsapp.png";
 import kamrulhasan from "./about/kamrulhasan.webp";
 import PriyamBiswas from "./about/Prem.webp";
+import Arup from "./about/Arup.webp";
 import NAfis from "./about/nafis.webp";
 import footFitness from "./projects/foot-fitness.png";
 import tramedi from "./projects/tramedi.png";
@@ -137,6 +138,7 @@ const images = {
   Mohib,
   Shaikat,
   Shibly,
+  Arup,
 };
 
 export default images;
