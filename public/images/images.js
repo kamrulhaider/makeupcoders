@@ -64,6 +64,7 @@ import nested from "./projects/Nested-Matrix.jpg";
 import haqueAndSons from "./projects/hoque.png";
 import commonAdmin from "./projects/Common-Admin.webp";
 import nijerHisab from "./projects/NijerHisab.png";
+import Chesmi from "./about/chesmi.jpg";
 //Testonomial images
 import Mohib from "./hero/mohib.webp";
 import Shaikat from "./hero/Shaikat.webp";
@@ -100,6 +101,7 @@ const images = {
   travelion,
   saimon,
   behance,
+  Chesmi,
   prothom,
   retailerInfo,
   turfmngmnt,

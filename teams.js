@@ -50,6 +50,12 @@ const teamList = [
     linkedin: "https://www.linkedin.com/in/parvezhosen/",
   },
   {
+    name: "Chesmi Nur Roshni",
+    position: "Senior Digital Marketer & Content Strategist",
+    image: images.Chesmi,
+    linkedin: "https://www.linkedin.com/in/fcnroshni/",
+  },
+  {
     name: "Tajkier haque Raiyan",
     position: "Problem Solver &  Tech Enthusiast",
     image: images.raiyan,
