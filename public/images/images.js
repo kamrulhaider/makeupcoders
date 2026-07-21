@@ -6,7 +6,7 @@ import appdev from "./services/app-development.jpg";
 import grapicdesign from "./services/grapic-design.jpg";
 import friendly from "./howwe/friendly.svg";
 import passionate from "./howwe/passion.svg";
-import toptier from "./about/42426.jpg";
+import toptier from "./about/42426.webp";
 import resourceful from "./howwe/resourcefull.svg";
 import facebook from "./social/facebook.png";
 import instagram from "./social/instagram.png";
