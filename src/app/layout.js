@@ -33,8 +33,8 @@ export const metadata = {
     type: "website",
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: "./public/images/logo/logo.png",
+    apple: "/images/logo/logo.png",
   },
 };
 
@@ -50,11 +50,11 @@ export default function RootLayout({ children }) {
           name="description"
           content="Makeup Coders crafts beautiful, high-performing websites and apps tailored to your brand."
         />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="./public/images/logo/logo.png"
+        />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

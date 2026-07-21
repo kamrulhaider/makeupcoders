@@ -82,10 +82,22 @@ const teamList = [
     linkedin: "https://www.linkedin.com/in/priyam-biswas-627511385/",
   },
   {
+    name: "Labonya Barua",
+    position: "Senior Digital Marketer & Content Strategist",
+    image: images.Labonya,
+    linkedin: "https://www.linkedin.com/in/fcnroshni/",
+  },
+  {
     name: "Arup Sharma",
     position: "IT & Management Executive",
     image: images.Arup,
     linkedin: "https://www.linkedin.com/in/arup-sharma-625b14280",
+  },
+  {
+    name: "Arithra Barua Dibya",
+    position: "Marketing Executive",
+    image: images.Dibya,
+    linkedin: "https://www.linkedin.com/in/aritra-barua-dibya-8434971ba",
   },
 ];
 

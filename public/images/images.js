@@ -6,6 +6,7 @@ import appdev from "./services/app-development.jpg";
 import grapicdesign from "./services/grapic-design.jpg";
 import friendly from "./howwe/friendly.svg";
 import passionate from "./howwe/passion.svg";
+import toptier from "./about/42426.jpg";
 import resourceful from "./howwe/resourcefull.svg";
 import facebook from "./social/facebook.png";
 import instagram from "./social/instagram.png";
@@ -41,6 +42,8 @@ import whatsapp from "./social/whatsapp.png";
 import kamrulhasan from "./about/kamrulhasan.webp";
 import PriyamBiswas from "./about/Prem.webp";
 import Arup from "./about/Arup.webp";
+import Dibya from "./about/dibya.jpg";
+import Labonya from "./about/Labonya.jpeg";
 import NAfis from "./about/nafis.webp";
 import footFitness from "./projects/foot-fitness.png";
 import tramedi from "./projects/tramedi.png";
@@ -92,8 +95,10 @@ const images = {
   linkedin,
   github,
   ouroffice,
+  toptier,
   saran,
   atul,
+  Labonya,
   kamrul,
   realdeal,
   visamind,
@@ -141,6 +146,7 @@ const images = {
   Shaikat,
   Shibly,
   Arup,
+  Dibya,
 };
 
 export default images;

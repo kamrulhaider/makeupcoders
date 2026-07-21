@@ -58,7 +58,7 @@ export default function AboutPage() {
           <div className="lg:w-3/5">
             <Image
               className="w-full h-[600px] object-cover lg:rounded-l-2xl lg:rounded-tr-none rounded-t-2xl"
-              src={images.teamdetails}
+              src={images.toptier}
               alt="Hero Image"
             />
           </div>
