@@ -17,7 +17,10 @@ import saran from "./about/saran.jpeg";
 import atul from "./about/atul.webp";
 import kamrul from "./about/kamrul.webp";
 import realdeal from "./about/realdeal.webp";
+
+// Projects
 import visamind from "./projects/visamind.png";
+import Property from "./projects/s.jpg";
 import adsusu from "./projects/adsusu.png";
 import travelion from "./projects/travilion.png";
 import saimon from "./about/saimon.jpeg";
@@ -87,6 +90,7 @@ const images = {
   appdev,
   grapicdesign,
   friendly,
+  Property,
   passionate,
   commonAdmin,
   resourceful,

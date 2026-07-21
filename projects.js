@@ -15,6 +15,13 @@ const projectList = [
     category: "web",
     link: "https://nested-matrix.vercel.app/",
   },
+  {
+    title: "Property Managament Software",
+    des: "A modern property management software that streamlines property operations, tenant management, rent collection, maintenance, and financial reporting in one centralized platform.",
+    image: images.Property,
+    category: "web",
+    link: "https://salamproperties.makeupcoders.com",
+  },
 
   {
     title: "Visamind",
