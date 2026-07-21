@@ -63,7 +63,7 @@ import CryptoWeb from "./projects/CryptoWeb.jpeg";
 import usAgenecy from "./projects/ux-Agency.jpeg";
 import genAi from "./projects/genAI.jpeg";
 import mytrams from "./projects/Mytrams.jpg";
-import nested from "./projects/Nested-Matrix.jpg";
+import nested from "./about/Nested.png";
 import haqueAndSons from "./projects/hoque.png";
 import commonAdmin from "./projects/Common-Admin.webp";
 import nijerHisab from "./projects/NijerHisab.png";

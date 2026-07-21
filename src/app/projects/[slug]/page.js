@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import { ExternalLink, Lock } from "lucide-react";
 import projectList from "../../../../projects.js";
 
 function slugify(str) {
@@ -43,6 +45,8 @@ export default function Page({ params }) {
     return <div className="global-container">Project not found</div>;
   }
 
+  const hasLink = Boolean(project.link && project.link.trim() !== "");
+
   return (
     <section className="global-container">
       <div className="hero-section rounded-2xl lg:pl-20 lg:pt-0 pt-5 mb-16">
@@ -50,7 +54,36 @@ export default function Page({ params }) {
           <div className="lg:w-1/2">
             <h1 className="text-4xl font-bold mb-4">{project.title}</h1>
             <p className="mb-4">{project.des}</p>
+
+            {hasLink ? (
+              <Link
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 rounded-full bg-black px-6 py-3 text-white font-medium
+                           transition-all duration-300 ease-out
+                           hover:gap-3 hover:bg-neutral-800 hover:shadow-lg hover:shadow-black/20
+                           active:scale-95"
+              >
+                Visit Project
+                <ExternalLink
+                  size={18}
+                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </Link>
+            ) : (
+              <span
+                aria-disabled="true"
+                title="Live link not available"
+                className="inline-flex items-center gap-2 rounded-full bg-neutral-200 px-6 py-3
+                           text-neutral-500 font-medium cursor-not-allowed select-none"
+              >
+                Link Unavailable
+                <Lock size={16} />
+              </span>
+            )}
           </div>
+
           <div className="lg:w-1/2">
             <Image
               src={project.image}

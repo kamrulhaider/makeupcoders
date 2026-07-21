@@ -6,31 +6,36 @@ const projectList = [
     des: "MyTRAMS is a complete travel agency management system built to automate and centralize daily operations for travel businesses. It handles air ticketing, visa processing, hotel and holiday bookings, finance, refunds, reporting, and role-based access—helping agencies operate faster, smarter, and at scale.",
     image: images.mytrams,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Nested Matrix",
     des: "Nested Matrix is a modern restaurant automation system designed to streamline daily operations and improve efficiency. It manages orders, billing, inventory, staff workflows, and sales reporting in one centralized platform—helping restaurants operate faster, reduce errors, and make data-driven decisions.",
     image: images.nested,
     category: "web",
+    link: "https://nested-matrix.vercel.app/",
   },
 
   {
     title: "Visamind",
-    des: "A visa info and visa application website.",
+    des: "VisaMind is a Bangladesh-based visa and immigration consultancy that helps individuals with tourist, student, work, and immigration visa applications for multiple countries.",
     image: images.visamind,
     category: "web",
+    link: "https://www.visamind.net",
   },
   {
     title: "Foot Fitness",
     des: "We are on a mission to redefine fashion by blending style, quality, and craftsmanship into every garment we offer. We believe what you wear is an expression of your unique personality, and it reflects your aspirations.",
     image: images.footFitness,
     category: "web",
+    link: "https://foot-finesse-alpha.vercel.app/",
   },
   {
     title: "Tramedy",
     des: "At TraMedi, you gain access to a full spectrum of medical services, ensuring that your entire journey is supported, comfortable, and stress-free at affordable prices",
     image: images.tramedi,
     category: "web",
+    link: "https://mytrams.com",
   },
 
   {
@@ -38,42 +43,49 @@ const projectList = [
     des: "An online clothing store featuring premium cotton t-shirts and trendy apparel for men, women, and kids. With a modern design, easy navigation, and secure checkout, shopping fashion becomes simple and stylish.",
     image: images.ClothWeb,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "CryptoPulse- a crypto exchange",
     des: "CryptoPulse is a next-gen crypto exchange platform offering advanced analytics, real-time market data, and secure trading. Discover hidden gems in the crypto world with powerful tools designed for smart investors.",
     image: images.CryptoWeb,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Ux Agency Website ",
     des: "A full-service web agency helping businesses scale with modern websites, digital consulting, analytics, and technical support. We build smart, user-friendly platforms that deliver results.",
     image: images.usAgenecy,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Adsusu",
     des: "An micro investment website for the people who has lower saving.",
     image: images.adsusu,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Travelion",
     des: "Air ticketing and hotel reservation website B2B.",
     image: images.travelion,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Pacific Cliff",
     des: "A delivery website frontend developed for an Australian client.",
     image: images.pacificCliff,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Sokol Sheba",
     des: "Multiple Service selling website.",
     image: images.sokolseba,
     category: "web",
+    link: "https://mytrams.com",
   },
 
   {
@@ -81,12 +93,14 @@ const projectList = [
     des: "Invoice Generator is a lightweight and efficient web application that allows businesses to create, customize, and download professional invoices in seconds. It supports itemized billing, automatic calculations, tax handling, and PDF export—making invoicing fast, accurate, and hassle-free.",
     image: images.genAi,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Haque & Sons Engineering Technology",
     des: "A corporate website developed for Haque & Sons Engineering Technology, a Bangladesh-based elevator and escalator solutions company. The platform showcases their services including installation, modernization, maintenance, and repair, with a strong focus on safety, reliability, and engineering expertise.",
     image: images.haqueAndSons,
     category: "web",
+    link: "https://mytrams.com",
   },
 
   {
@@ -94,36 +108,42 @@ const projectList = [
     des: "A Welfare Management Website building by React and Nodejs",
     image: images.SomitiWeb,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Easy Accounting",
     des: "Easy Accounting is a modern accounting platform built to simplify financial management for growing businesses. From single journal entries to automated ledgers, balance sheets, and real-time dashboards — it delivers clarity, speed, and control without the ERP complexity.",
     image: images.EasyAccounting,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Super Admin Panel",
     des: "Custom Super admin panel designed and developed by us.",
     image: images.commonAdmin,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Admin Panel",
     des: "Custom admin panel designed and developed by us.",
     image: images.adminpanel,
     category: "web",
+    link: "https://mytrams.com",
   },
   {
     title: "Somiti Management App",
     des: "A community app built for Brihattar Chattagram Somiti, connecting members through messaging, profiles, and digital membership cards. It makes communication and management easier, smarter, and more organized",
     image: images.Somiti,
     category: "app",
+    link: "https://mytrams.com",
   },
   {
     title: "Booking App",
     des: "A smart booking app that lets users reserve flights, hotels, events, or services anytime, anywhere. With real-time availability and instant confirmation, managing reservations becomes seamless and hassle-free.",
     image: images.BookingApp,
     category: "app",
+    link: "https://mytrams.com",
   },
 
   {
