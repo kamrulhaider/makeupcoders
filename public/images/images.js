@@ -74,7 +74,7 @@ import MusicAppUi from "./projects/Music-app-ui.jpeg";
 import ClothWeb from "./projects/clothWebsite.jpeg";
 import SomitiWeb from "./projects/SomitiWeb.jpg";
 import CryptoWeb from "./projects/CryptoWeb.jpeg";
-import usAgenecy from "./projects/ux-Agency.jpeg";
+import Metta from "./projects/Metta.png";
 import genAi from "./projects/genAI.jpeg";
 import mytrams from "./projects/Mytrams.jpg";
 import nested from "./about/Nested.png";
@@ -164,7 +164,7 @@ const images = {
   ClothWeb,
   SomitiWeb,
   CryptoWeb,
-  usAgenecy,
+  Metta,
   PriyamBiswas,
   NAfis,
   nijerHisab,
