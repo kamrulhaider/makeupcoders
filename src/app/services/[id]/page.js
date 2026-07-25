@@ -57,21 +57,22 @@ export default function Page({ params }) {
   return (
     <section className="global-container">
       {/* title section  */}
-      <div className="hero-section h-[200px] rounded-2xl flex items-center justify-center text-center mb-16">
-        <div className="lg:w-1/3">
-          <h2 className="text-2xl font-bold mb-3">
+      <div className="hero-section min-h-[320px] rounded-2xl flex items-center justify-center text-center mb-16 px-6">
+        <div className="max-w-4xl">
+          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight mb-6">
             {id === "web-development"
-              ? "Web App Development"
+              ? "Next-Generation Web Solutions"
               : id === "app-development"
-                ? "App Development"
-                : "UI/UX Design"}
+                ? "Smart Mobile Solutions For Modern Businesses"
+                : "Design Experiences Your Users Love"}
           </h2>
-          <p className="text-sm">
+
+          <p className="text-lg md:text-xl leading-9 text-slate-600 max-w-3xl mx-auto">
             {id === "web-development"
-              ? "We create websites that function as impactful marketing tools and deliver unforgettable brand experiences."
+              ? "From strategy to deployment, we build scalable and secure web solutions that empower businesses with exceptional performance, seamless experiences, and future-ready technology."
               : id === "app-development"
-                ? "Our mobile designs provide your customers with intuitive digital solutions at their fingertips."
-                : "Our UI/UX designs offer seamless and engaging digital experiences, ensuring your customers interact effortlessly with your brand."}
+                ? "We transform ideas into elegant mobile applications that deliver effortless user experiences, powerful features, and meaningful connections between brands and customers."
+                : "Our design approach focuses on understanding users, solving real problems, and creating visually stunning interfaces that make every interaction simple, enjoyable, and memorable."}
           </p>
         </div>
       </div>

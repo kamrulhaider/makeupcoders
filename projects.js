@@ -336,12 +336,7 @@ const projectList = [
     image: images.MusicAppUi,
     category: "uiux",
   },
-  {
-    title: "Ux Agency UI ",
-    des: "A creative UX/UI design agency that transforms ideas into stunning digital experiences. From wireframes to polished interfaces.",
-    image: images.usAgenecy,
-    category: "uiux",
-  },
+
   {
     title: "Ecommerce Design",
     des: "Ecomere Design app UI for a Single Vendor.",
