@@ -61,7 +61,7 @@ export default function Page({ params }) {
         <div className="lg:w-1/3">
           <h2 className="text-2xl font-bold mb-3">
             {id === "web-development"
-              ? "Web Development"
+              ? "Web App Development"
               : id === "app-development"
                 ? "App Development"
                 : "UI/UX Design"}
@@ -78,7 +78,7 @@ export default function Page({ params }) {
 
       {/* project showcase  */}
       <div className="mb-16">
-        <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
           {filteredProject.map((item, i) => (
             <ProjectCard
               key={i}

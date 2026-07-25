@@ -20,6 +20,17 @@ import realdeal from "./about/realdeal.webp";
 
 // Projects
 import visamind from "./projects/visamind.png";
+import HRM from "./projects/hrm.png";
+import Bereinnya from "./projects/bereinnya.png";
+import BISD from "./projects/BISD.png";
+import SomitiManagemet from "./projects/somiti management.png";
+import Inventory from "./projects/Inventory.png";
+import Atoms from "./projects/atom.png";
+import Chattalmart from "./projects/chattalmart.png";
+import Himasti from "./projects/himasti.png";
+import Nippon from "./projects/Nippon.png";
+import TSE from "./projects/tse.png";
+import Savinger from "./projects/savinger.png";
 import Property from "./projects/s.jpg";
 import adsusu from "./projects/adsusu.png";
 import travelion from "./projects/travilion.png";
@@ -96,6 +107,7 @@ const images = {
   resourceful,
   facebook,
   instagram,
+  Nippon,
   linkedin,
   github,
   ouroffice,
@@ -106,6 +118,16 @@ const images = {
   kamrul,
   realdeal,
   visamind,
+  Atoms,
+  Himasti,
+  TSE,
+  Savinger,
+  Chattalmart,
+  SomitiManagemet,
+  BISD,
+  HRM,
+  Bereinnya,
+  Inventory,
   adsusu,
   travelion,
   saimon,
